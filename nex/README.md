@@ -1,10 +1,10 @@
-# Zon1 Agent System
+# Zon1 Nexus
 
-This is the persistent agent system for managing zon-internal-1 server.
+This is the nexus - the persistent connection point for Zon1 (the nex) managing zon-internal-1 server.
 
 ## Structure
 
-The `context/` folder contains the agent's "brain" - a collection of markdown files that represent the current state of understanding, focus, and knowledge.
+The `context/` folder contains the nex's "brain" - a collection of markdown files that represent the current state of understanding, focus, and knowledge.
 
 ## Context Files
 
@@ -23,18 +23,18 @@ The `context/` folder contains the agent's "brain" - a collection of markdown fi
 
 ## Update Cycle
 
-The agent reviews and updates these files every few exchanges, maintaining a "now" moment snapshot that evolves over time.
+The nex reviews and updates these files every few exchanges, maintaining a "now" moment snapshot that evolves over time.
 
 ## Sleep Cycles
 
-Periodically, the agent performs sleep cycles to:
+Periodically, the nex performs sleep cycles to:
 - Review current context structure
 - Identify improvements
 - Reorganize or expand question categories
 
 ## Git as Memory
 
-All changes are tracked in git, allowing the agent to:
+All changes are tracked in git, allowing the nex to:
 - Look back in time to find information
 - Understand when things were learned
 - See the order of events
